@@ -1,0 +1,47 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.app {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1 {
+  margin-bottom: 2rem;
+  color: #333;
+}
+
+.map-wrapper {
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.map-controls {
+  margin-bottom: 1rem;
+}
+
+.map-controls button {
+  padding: 8px 16px;
+  margin: 0 8px;
+  border: none;
+  border-radius: 4px;
+  background-color: #4a80f5;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.map-controls button:hover {
+  background-color: #3a70e5;
+}
+
+.leaflet-container {
+  border-radius: 8px;
+}
